@@ -60,3 +60,8 @@ i {
     transform: rotate(360deg);
   }
 }
+
+.estimate {
+  display: grid;
+  margin-right: 30px;
+}

@@ -3,7 +3,7 @@ import './Title.css'
 
 const Title = () => {
     return (
-        <div class="Title">
+        <div className="Title">
             <h1>Magical Toilet</h1>
 
         </div>
