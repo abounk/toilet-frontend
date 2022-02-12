@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.header {
+  background-color: white;
+  height: 20%;
+}
+
+html {
+  background-color: #add84b;
+}
+
+.estimatedTime {
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  margin-top: 20px;
+}
+
+* {
+  font-family: "Rubik Mono One";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

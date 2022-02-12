@@ -1,0 +1,62 @@
+.Card {
+  height: 75vh;
+  width: 200vh;
+  gap: 1.5rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-family: Rubik Mono One;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+}
+
+.Card-body {
+  width: 279px;
+  height: 391px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 46px;
+}
+
+.Card-body h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+img {
+  width: 200px;
+}
+.statusBarGreen {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: green;
+}
+
+.statusBarRed {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: Red;
+}
+
+.cardText {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
+
+.header {
+  font-size: 24px;
+}
+
+.statusBarGreen {
+  font-size: 24px;
+}
